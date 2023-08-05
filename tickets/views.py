@@ -228,3 +228,4 @@ def new_reservation(request):
     reservation.save()
     
     return Response(status=status.HTTP_201_CREATED)
+
